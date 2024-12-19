@@ -1,0 +1,48 @@
+.category-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .category-header {
+    margin-bottom: 20px;
+  }
+  
+  .category-header h3 {
+    display: inline;
+  }
+  
+  .category-item {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .category-filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter-button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .book-item {
+    width: 150px;
+    text-align: center;
+  }
+  
+  .book-icon {
+    width: 80px;
+    height: 100px;
+    margin: 0 auto;
+    background: url('../../../public/image/cover.png') no-repeat center center;
+    background-size: contain;
+  }
